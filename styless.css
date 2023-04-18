@@ -1,0 +1,110 @@
+
+
+.background-image {
+    background-image: url("./world.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+
+
+.transparent-form {
+  background-color: rgba(255, 255, 255, 0.295); /*set the background color with an opacity value*/
+  
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 500px; /* 500px */
+  margin: 0 auto;
+}
+
+.transparent-form h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.transparent-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.transparent-form input,
+.transparent-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0); /* set the background color of the form elements with an opacity value */
+  margin-bottom: 10px;
+}
+
+.transparent-form input[type="submit"] {
+  background-color: #99353500;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.transparent-form input[type="submit"]:hover {
+  background-color: #191a1f;
+}
+
+.transparent-form input:invalid,
+.transparent-form textarea:invalid {
+  border: 2px solid rgb(18, 28, 49);
+}
+
+.transparent-form input:valid,
+.transparent-form textarea:valid {
+  border: 2px solid rgb(18, 28, 49);
+}
+
+.logo-anim{
+  transition: all ls;
+}
+
+.logo-anim:hover{
+  transform: rotate(-0.04turn) scale(1.1)
+}
+
+.brand-anim{
+  transition: all ls;
+}
+
+.brand-anim:hover{
+  transform: scale(1.1)
+}
+
+/* .footer.links{
+
+  text-decoration: none;
+  color: black;
+}  */
+
+.link-anim{
+  transition: all ls;
+}
+
+.link-anim:hover{
+  transform: scale(1.1);
+  background-color: darkred;
+  transition: 0.2s;
+}
+
+.img-anim{
+  transition: all ls;
+}
+
+.img-anim:hover{
+  transform: scale(1.05)
+}
+
+.hello-anim{
+  transition: all ls;
+}
+
+.hello-anim:hover{
+  transform: scale(1.05)  /* rotate(-0.01turn) */
+}

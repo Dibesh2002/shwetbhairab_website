@@ -1,0 +1,29 @@
+Our offset printing press provides services across Nepal. We offer printing expertise of high quality and flexible rates based on the needs of our clients. Our press is equipped with advanced printing technology and facilities, making it convenient and efficient. Our team provides excellent services and produces high-quality outputs.
+
+                    For more information and inquiries, please contact our press
+
+
+
+
+* .hero-text-color{
+    color:rgb(156, 90, 10)
+}
+
+.hero-sub-text{
+    color:rgb(56, 7, 44)
+} */
+
+.footer.links{
+  
+    text-decoration: none;
+    color: black;
+} 
+
+/* */ 
+.logo-anim{
+    transition: all ls;
+}
+
+.logo-anim:hover{
+    transform: rotate(0.08turn)
+}/

@@ -1,0 +1,189 @@
+.logo-anim{
+    transition: all ls;
+}
+
+.logo-anim:hover{
+    transform: rotate(-0.04turn) scale(1.1)
+}
+
+.brand-anim{
+    transition: all ls;
+}
+
+.brand-anim:hover{
+    transform: scale(1.1)
+}
+
+/* .footer.links{
+  
+    text-decoration: none;
+    color: black;
+}  */
+
+.link-anim{
+    transition: all ls;
+}
+
+.link-anim:hover{
+    transform: scale(1.1);
+    background-color: darkred;
+    transition: 0.2s;
+}
+
+.img-anim{
+    transition: all ls;
+}
+
+.img-anim:hover{
+    transform: scale(1.05)
+}
+
+.hello-anim{
+    transition: all ls;
+}
+
+.hello-anim:hover{
+    transform: scale(1.05)  /* rotate(-0.01turn) */
+}
+
+
+/* body{
+    background-image: linear-gradient(45deg,red,blue) url("./bbb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* .heading{
+    border:solid thick;
+    padding:40px;
+    margin:40px
+} */
+
+/* body{
+    background: linear-gradient(45deg,rgb(36, 31, 31),rgb(136, 136, 150))
+} */
+
+body{
+    /* background: linear-gradient(45deg,rgb(0, 0, 0),rgb(255, 255, 255),rgb(43, 43, 110)) */
+    /* background: linear-gradient(45deg,rgb(0, 0, 0),rgb(9, 0, 59),rgb(155, 155, 163)) */
+    background-image: url("./pressss.jpg");
+    background-position:center;
+} 
+
+/* .navbar{
+    background-color: rgb(160, 30, 30);
+}
+.navbar-text{
+    color: rgb(255, 252, 248);
+}
+ */
+
+ .footer.link{
+    color: rgb(56, 44, 44);
+ }
+
+
+ /* service */
+
+ /* Center the main title */
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+/* .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+} */
+/* .container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pressss.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+.btn:hover{
+    transform: scale(1.05);
+    /* color: black;
+    background-color: rgb(255, 187, 0); */
+    transition: 0.05s;
+}
+
+
+
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    /* background-image: url(./shwetbhirab_press.jpg); */
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .card2 {
+    width: 190px;
+    height: 254px;
+    /* background-color: #1a1a1a; */
+    background-image: url(./shwetbhirab_press.jpg);
+    background-size: 110%;
+    border: radius 20px;;
+    transition: all .2s;
+   }
+   
+   .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
+
+
+
+   .shadow__btn {
+    padding: 10px 15px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 0px;
+    /* font-weight: 100; */
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin: 20px;
+  }
+  
+  .shadow__btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+  
+  .shadow__btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+
+
+  
